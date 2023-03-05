@@ -1,0 +1,22 @@
+.layout {
+    color: var(--txt-color);
+}
+
+.layout__content {
+    background-color: var(--second-bg);
+    min-height: 100vh;
+}
+
+.layout__content-main {
+    padding: 20px 0px 0px 0px !important;
+    /* display: flex; */
+}
+
+.layout_container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}

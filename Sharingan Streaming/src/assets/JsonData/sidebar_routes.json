@@ -1,0 +1,18 @@
+[
+    {
+        "display_name": "Sub Anime",
+        "route": "/"
+    },
+    {
+        "display_name": "Dub Anime",
+        "route": "/recent-dubs"
+    },
+    {
+        "display_name": "Movies",
+        "route": "/dub"
+    },
+    {
+        "display_name": "Top Airing",
+        "route": "/dub"
+    }
+]

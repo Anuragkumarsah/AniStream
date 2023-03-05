@@ -1,0 +1,108 @@
+.reactplayer {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: var(--width) !important;
+  height: 500px !important;
+  background-color: #06191D;
+  /* display: none; */
+}
+
+
+.player-wrapper {
+  /* margin-left: var(--sidebar-width); */
+  --width: 90%;
+  display: block !important;
+  width: 80%;
+  height: max-content;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  /* height: 100% !important; */
+}
+
+.episode-list {
+  width: var(--width);
+  height: 200px;
+  overflow: hidden;
+  margin: 5px auto 20px;
+  overflow-y: scroll;
+}
+
+.episode-list::-webkit-scrollbar {
+  display: none;
+}
+
+.anime_title {
+  font-size: 1.5rem;
+  width: var(--width);
+  margin: 10px auto;
+}
+
+@media screen and (max-width: 1100px) {
+  .reactplayer {
+    /* width: 85% !important; */
+    height: 450px !important;
+  }
+
+  .player-wrapper {
+    --width: 85%;
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .reactplayer {
+    /* width: 85% !important; */
+    height: 450px !important;
+  }
+
+  .player-wrapper {
+    --width: 85%;
+    width: 85% !important;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  /* .reactplayer {
+    width: 90% !important;
+  } */
+
+  .player-wrapper {
+    --width: 90%;
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .reactplayer {
+    /* width: 90% !important; */
+    height: 400px !important;
+  }
+
+  .player-wrapper {
+    --width: 90%;
+    width: 90% !important;
+    height: 400px !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .reactplayer {
+    /* width: 100% !important; */
+    height: 300px !important;
+  }
+
+  .player-wrapper {
+    --width: 100%;
+    width: 100% !important;
+    height: 300px !important;
+  }
+}
+
+
+
+/* @media only screen and (min-width: 1300px) {
+    .reactplayer{
+        width: 70% !important;
+    }
+  } */

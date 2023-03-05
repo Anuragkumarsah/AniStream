@@ -1,0 +1,19 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+} */
+
+.card_container {
+    margin-left: calc(var(--sidebar-width) + 20px);
+    margin-right: 0;
+}
+
+
+.page_title {
+    text-align: center;
+    margin: 12px 25px 12px calc(var(--sidebar-width) + 20px);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--main-color);
+    background-color: var(--main-bg) !important;
+}

@@ -1,0 +1,14 @@
+.cover_image {
+    width: 15%;
+    aspect-ratio: 3/4;
+    object-fit: contain;
+}
+
+.watch_now_button {
+    /* border: none; */
+    margin: 10px;
+    border-radius: 30px 10px;
+    padding: 10px;
+    color: var(--main-bg);
+    background-color: #cae962;
+}
